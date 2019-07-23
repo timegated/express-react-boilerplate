@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  fetch('/api', { headers: { 'Accept': 'application/json' } }).then(res => res.json()).then(res => console.log(res));
   return (
     <div className="App">
       <header className="App-header">

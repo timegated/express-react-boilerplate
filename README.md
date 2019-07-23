@@ -1,4 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# express-react-boilerplate
+
+This is a boilerplate template which holds a basic React app generated thorugh `create-react-app` and a basic Express API server. 
+
+## Motivation
+
+The problem is that I personally find it very hard to set up a simple React App with an Express Server all in one repository. This implementation hopes to bridge the gap so other people may use both React and Express in their projects. 
+
+Through this implementation, not only are you able to quickly develop React and Express projects but this is quickly deployable to a service like Heroku. You may try it out if you wish to do so.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+## Usage
+
+Once this repository has been downloaded into your computer, run `npm install` to install all required dependencies. Depending on your internet connection, this may take a while (its more than 100mb).
+
+All React code should be edited in the `client` directory beneath `src` while the Express code should be edited in `server` for simplicity. To prevent any breaking code, please do not change the filename of `src/index.js` as this is linked through `react-scripts`.
 
 ## Available Scripts
 
@@ -6,11 +22,13 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This initiates the Express server through `server.js` while opening a port at Port 5000 or whatever is specified through the `PORT` environment variable.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+<b>Note:</b> If the browser shows an error message saying that it can't find anything in the `build` directory, please run `npm run build` in order to build the React project.
+
+### `npm run dev`
+
+This initiates a development server (initializing both the React Dev Server and the Express server) which reloads when a file has been saved.
 
 ### `npm test`
 
