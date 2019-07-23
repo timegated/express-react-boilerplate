@@ -8,7 +8,7 @@ The problem is that I personally find it very hard to set up a simple React App 
 
 Through this implementation, not only are you able to quickly develop React and Express projects but this is quickly deployable to a service like Heroku. You may try it out if you wish to do so.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mrsilver512/express-react-boilerplate)
 
 ## Usage
 
