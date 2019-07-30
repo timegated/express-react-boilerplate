@@ -8,7 +8,9 @@ The problem is that I personally find it very hard to set up a simple React App 
 
 Through this implementation, not only are you able to quickly develop React and Express projects but this is quickly deployable to a service like Heroku. You may try it out if you wish to do so.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mrsilver512/express-react-boilerplate)
+In addition, should you want to wish to deploy this to a service which provides hosting for front-end sites (such as GitHub Pages and Netlify) while hosting the backend separately, you may do so by using the environment variable `REACT_APP_PROJECT_SERVER` to reference the Express API Server in the React Project. Please refer to `.env.example` for the API URL format.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mrsilver512/express-react-boilerplate) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mrsilver512/express-react-boilerplate)
 
 ## Usage
 
